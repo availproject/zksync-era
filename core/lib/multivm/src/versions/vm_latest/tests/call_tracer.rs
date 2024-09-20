@@ -6,6 +6,7 @@ use zksync_types::{Address, Execute};
 use crate::{
     interface::{TxExecutionMode, VmExecutionMode, VmInterface},
     tracers::CallTracer,
+    utils::testonly::check_call_tracer_test_result,
     vm_latest::{
         constants::BATCH_COMPUTATIONAL_GAS_LIMIT,
         tests::{
@@ -88,9 +89,6 @@ fn test_basic_behavior() {
 
     let call_tracer_result = result.get().unwrap();
 
-    assert_eq!(call_tracer_result.len(), 1);
-    // Expect that there are a plenty of subcalls underneath.
-    let subcall = &call_tracer_result[0].calls;
-    assert!(subcall.len() > 10);
+    check_call_tracer_test_result(call_tracer_result);
     assert!(!res.result.is_failed());
 }
