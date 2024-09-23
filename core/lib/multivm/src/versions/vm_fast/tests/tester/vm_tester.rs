@@ -197,6 +197,10 @@ impl VmTesterBuilder {
     }
 
     pub(crate) fn build(self) -> VmTester<()> {
+        self.build_with_tracer()
+    }
+
+    pub(crate) fn build_with_tracer<T: Tracer>(self) -> VmTester<T> {
         let l1_batch_env = self
             .l1_batch_env
             .unwrap_or_else(|| default_l1_batch(L1BatchNumber(1)));
