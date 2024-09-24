@@ -1,5 +1,58 @@
 # Changelog
 
+## [0.1.3](https://github.com/matter-labs/zksync-era/compare/zk_toolbox-v0.1.2...zk_toolbox-v0.1.3) (2024-09-24)
+
+
+### Features
+
+* Add `gateway_url` to EN config ([#2698](https://github.com/matter-labs/zksync-era/issues/2698)) ([cfdda01](https://github.com/matter-labs/zksync-era/commit/cfdda019afe26810234285411eba79ada472c888))
+* add `update-token-multiplier-setter` command ([#2688](https://github.com/matter-labs/zksync-era/issues/2688)) ([0275435](https://github.com/matter-labs/zksync-era/commit/0275435c7f3f35d9ecf7b65b06d217987cd7a505))
+* add dapp-portal support to zk_inception ([#2659](https://github.com/matter-labs/zksync-era/issues/2659)) ([835d2d3](https://github.com/matter-labs/zksync-era/commit/835d2d38d533ccd4149fa481e8b66eb9d5815d8a))
+* added seed_peers to consensus global config ([#2920](https://github.com/matter-labs/zksync-era/issues/2920)) ([e9d1d90](https://github.com/matter-labs/zksync-era/commit/e9d1d905f1ce86f9de2cf39d79be4b5aada4a81d))
+* allow specifying what tests to run with zks ([#2841](https://github.com/matter-labs/zksync-era/issues/2841)) ([57f56fb](https://github.com/matter-labs/zksync-era/commit/57f56fb87a5899ddb2e82f4cfe4d182bdba496cf))
+* attester committees data extractor (BFT-434) ([#2684](https://github.com/matter-labs/zksync-era/issues/2684)) ([92dde03](https://github.com/matter-labs/zksync-era/commit/92dde039ee8a0bc08e2019b7fa6f243a34d9816f))
+* Bump crypto and protocol deps ([#2825](https://github.com/matter-labs/zksync-era/issues/2825)) ([a5ffaf1](https://github.com/matter-labs/zksync-era/commit/a5ffaf1b4e291d6f09ba8c1f224f5900665bffc4))
+* deployment of multicall3 on L2 by zk_toolbox ([#2872](https://github.com/matter-labs/zksync-era/issues/2872)) ([6d4090f](https://github.com/matter-labs/zksync-era/commit/6d4090f025286ab62b7ab5f5e2eaaeac34b0aec6))
+* Move prover data to /home/popzxc/workspace/current/zksync-era/prover/data ([#2778](https://github.com/matter-labs/zksync-era/issues/2778)) ([62e4d46](https://github.com/matter-labs/zksync-era/commit/62e4d4619dde9d6bd9102f1410eea75b0e2051c5))
+* Provide easy prover setup ([#2683](https://github.com/matter-labs/zksync-era/issues/2683)) ([30edda4](https://github.com/matter-labs/zksync-era/commit/30edda404193938fbd55815bed164b5321d7c642))
+* **zk_toolbox:** `zk_supervisor prover` subcommand ([#2820](https://github.com/matter-labs/zksync-era/issues/2820)) ([3506731](https://github.com/matter-labs/zksync-era/commit/3506731d1702bdec8c6b5b41cabca9a257f0269b))
+* **zk_toolbox:** add `zki ecosystem build` subcommand ([#2787](https://github.com/matter-labs/zksync-era/issues/2787)) ([73c0b7c](https://github.com/matter-labs/zksync-era/commit/73c0b7c5d7f8f156657fd1c9ed502cc2fff7e063))
+* **zk_toolbox:** Add block explorer support to zk_toolbox ([#2768](https://github.com/matter-labs/zksync-era/issues/2768)) ([1559afb](https://github.com/matter-labs/zksync-era/commit/1559afbd14d5fe78c4ab2a5ef593403302e355f1))
+* **zk_toolbox:** Add external_node consensus support ([#2821](https://github.com/matter-labs/zksync-era/issues/2821)) ([4a10d7d](https://github.com/matter-labs/zksync-era/commit/4a10d7d9554d6c1aa2f4fc46557d40baaad8ff2f))
+* **zk_toolbox:** Add holesky testnet as layer1 network ([#2632](https://github.com/matter-labs/zksync-era/issues/2632)) ([d9266e5](https://github.com/matter-labs/zksync-era/commit/d9266e5ef3910732666c00c1324256fb5b54452d))
+* **zk_toolbox:** add multi-chain CI integration test ([#2594](https://github.com/matter-labs/zksync-era/issues/2594)) ([05c940e](https://github.com/matter-labs/zksync-era/commit/05c940efbd93023c315e5e13c98faee2153cc1cd))
+* **zk_toolbox:** Add options for selective installation of zk_inception and zk_supervisor ([#2934](https://github.com/matter-labs/zksync-era/issues/2934)) ([9b63817](https://github.com/matter-labs/zksync-era/commit/9b63817020e8264accf8dff8845e12b3afcc85da))
+* **zk_toolbox:** Add setup keys step to prover init ([#2811](https://github.com/matter-labs/zksync-era/issues/2811)) ([0a9e096](https://github.com/matter-labs/zksync-era/commit/0a9e0961758e0b6274f1ac68d0b50ce5344ef14a))
+* **zk_toolbox:** Add zk toolbox unit tests to zks test ([#2935](https://github.com/matter-labs/zksync-era/issues/2935)) ([7026637](https://github.com/matter-labs/zksync-era/commit/70266373f67986406e23f0015469e7a85697a900))
+* **zk_toolbox:** Add zk_supervisor config-writer command ([#2866](https://github.com/matter-labs/zksync-era/issues/2866)) ([80b37b2](https://github.com/matter-labs/zksync-era/commit/80b37b275f7a2e51abbc273f60edde6862354cb8))
+* **zk_toolbox:** Add zks contracts ([#2781](https://github.com/matter-labs/zksync-era/issues/2781)) ([19ca512](https://github.com/matter-labs/zksync-era/commit/19ca51208db5c739d3f3e66f47d68f451997fa8e))
+* **zk_toolbox:** Allow running docker images for provers ([#2800](https://github.com/matter-labs/zksync-era/issues/2800)) ([bcb176b](https://github.com/matter-labs/zksync-era/commit/bcb176b8bb033d9cc0fd6bf7e971930c97c91d81))
+* **zk_toolbox:** Deploy ConsensusRegistry (BFT-504)  ([#2713](https://github.com/matter-labs/zksync-era/issues/2713)) ([cab13b8](https://github.com/matter-labs/zksync-era/commit/cab13b8d36fbcd7a49073904f1d04bfc36e81645))
+* **zk_toolbox:** deploy legacy bridge ([#2837](https://github.com/matter-labs/zksync-era/issues/2837)) ([93b4e08](https://github.com/matter-labs/zksync-era/commit/93b4e08257802d11108870d867dd59fa35e52733))
+* **zk_toolbox:** Ease requirements, add option to download setup keys ([#2784](https://github.com/matter-labs/zksync-era/issues/2784)) ([4a4d87e](https://github.com/matter-labs/zksync-era/commit/4a4d87e6c5ad37598a82cbc377b33ba951869adc))
+* **zk_toolbox:** Migrate CI unit tests to zk_toolbox ([#2759](https://github.com/matter-labs/zksync-era/issues/2759)) ([da5cafe](https://github.com/matter-labs/zksync-era/commit/da5cafe41b9ab0d4fd64779382987433903b1226))
+* **zk_toolbox:** Move check sql to the lint step ([#2757](https://github.com/matter-labs/zksync-era/issues/2757)) ([dcd3727](https://github.com/matter-labs/zksync-era/commit/dcd3727e0426ff93a79eeec50e8576465a0dff7c))
+* **zk_toolbox:** Update lint CI with `zk_toolbox` ([#2694](https://github.com/matter-labs/zksync-era/issues/2694)) ([7e122e9](https://github.com/matter-labs/zksync-era/commit/7e122e993d78656f2088070f09354e332258d686))
+* **zk_toolbox:** Update rust for zk_toolbox ([#2730](https://github.com/matter-labs/zksync-era/issues/2730)) ([30e072b](https://github.com/matter-labs/zksync-era/commit/30e072bd695615b0095c8bdcfd62b77c6b0ae5e6))
+* **zk_toolbox:** Verbose version message ([#2884](https://github.com/matter-labs/zksync-era/issues/2884)) ([438c820](https://github.com/matter-labs/zksync-era/commit/438c8209ea7cb669e35fc7c24c3b2d66909231f3))
+
+
+### Bug Fixes
+
+* **api:** `tx.gas_price` field ([#2734](https://github.com/matter-labs/zksync-era/issues/2734)) ([aea3726](https://github.com/matter-labs/zksync-era/commit/aea3726c88b4e881bcd0f4a60ff32a730f200938))
+* count SECP256 precompile to account validation gas limit as well ([#2859](https://github.com/matter-labs/zksync-era/issues/2859)) ([fee0c2a](https://github.com/matter-labs/zksync-era/commit/fee0c2ad08a5ab4a04252765b367eb9fbb1f3db7))
+* **eth-sender:** print better error message in case of missing blob prices ([#2927](https://github.com/matter-labs/zksync-era/issues/2927)) ([38fc824](https://github.com/matter-labs/zksync-era/commit/38fc824f75e8b0e84f10348d1502fc8a26d12015))
+* **lint:** Move ignore files out from the code ([#2756](https://github.com/matter-labs/zksync-era/issues/2756)) ([bf03274](https://github.com/matter-labs/zksync-era/commit/bf0327497d2f2d03dbaa87c831598262cb562c65))
+* token multiplier setter is taken from chain config ([#2893](https://github.com/matter-labs/zksync-era/issues/2893)) ([f848d93](https://github.com/matter-labs/zksync-era/commit/f848d93fe4201905bbe9bd24ffbacf954f7ddd32))
+* **zk_toolbox:** Clone era observability ([#2892](https://github.com/matter-labs/zksync-era/issues/2892)) ([413856f](https://github.com/matter-labs/zksync-era/commit/413856fa5fc00d14d77afc1e6a21e3257885c170))
+* **zk_toolbox:** fix port offset for new chains ([#2803](https://github.com/matter-labs/zksync-era/issues/2803)) ([9821a20](https://github.com/matter-labs/zksync-era/commit/9821a20018c367ce246dba656daab5c2e7757973))
+* **zk_toolbox:** increase confirmations in testing ([#2878](https://github.com/matter-labs/zksync-era/issues/2878)) ([f985e41](https://github.com/matter-labs/zksync-era/commit/f985e41f10f61c524f5ce47d27e75f3c626ae2fc))
+* **zk_toolbox:** secrets path, artifacts path ([#2850](https://github.com/matter-labs/zksync-era/issues/2850)) ([3b5e4a6](https://github.com/matter-labs/zksync-era/commit/3b5e4a69d7dbc43ea3460f4c7c57cf3ef6847b11))
+* **zk_toolbox:** show readable log ([#2911](https://github.com/matter-labs/zksync-era/issues/2911)) ([ab898e7](https://github.com/matter-labs/zksync-era/commit/ab898e7f1b3d0cd5d31c1820d50ee0fb043c1e6f))
+* **zk_toolbox:** various ways of writing zksync ([#2752](https://github.com/matter-labs/zksync-era/issues/2752)) ([ca9d56b](https://github.com/matter-labs/zksync-era/commit/ca9d56b5fa5c6a27a10b6002f8f3cdf97427eb94))
+* **zk-toolbox:** Make token multiplier optional ([#2843](https://github.com/matter-labs/zksync-era/issues/2843)) ([89fcb3a](https://github.com/matter-labs/zksync-era/commit/89fcb3a4a29c9831141234a1b4ca6b1d4df48b98))
+* **zk-toolbox:** use chain admin for bridgehub  ([#2857](https://github.com/matter-labs/zksync-era/issues/2857)) ([ccf1b63](https://github.com/matter-labs/zksync-era/commit/ccf1b6352f6db56bcb4b67d53564a3919532efeb))
+
 ## [0.1.2](https://github.com/matter-labs/zksync-era/compare/zk_toolbox-v0.1.1...zk_toolbox-v0.1.2) (2024-08-20)
 
 
