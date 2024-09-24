@@ -1,5 +1,12 @@
 # Changelog
 
+## [24.27.0](https://github.com/matter-labs/zksync-era/compare/core-v24.26.0...core-v24.27.0) (2024-09-24)
+
+
+### Features
+
+* **vm:** Split old and new VM implementations ([#2915](https://github.com/matter-labs/zksync-era/issues/2915)) ([93bc66f](https://github.com/matter-labs/zksync-era/commit/93bc66f21f9f67a440f06f1c4402e0d687698741))
+
 ## [24.26.0](https://github.com/matter-labs/zksync-era/compare/core-v24.25.0...core-v24.26.0) (2024-09-23)
 
 
